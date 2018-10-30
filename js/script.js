@@ -4,6 +4,9 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+$("button").click(function(){
+    $("#userChoice").text($("#input").val());
+});
 
 
 

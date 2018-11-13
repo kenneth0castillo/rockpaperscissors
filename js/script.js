@@ -4,9 +4,29 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+// let userChoice = userChoice
+
+let userChoice = ""
+let randomNummber = Math.random();
+
 $("button").click(function(){
-    $("#userChoice").text($("#input").val());
+    userChoice = $("#input").val()
+    $("#userChoice").text(userChoice);
 });
+
+// $("button").click(function(){
+//     userChoice = $("#input").val()
+//     $("#userChoice").text(userChoice);
+// });
+
+let compc = randomNummber
+
+$("button").click(function(){
+    $("#computerChoice").text()
+});
+
+
+
 
 
 
